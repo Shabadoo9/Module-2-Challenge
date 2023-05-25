@@ -160,4 +160,29 @@ body{
     opacity: 0;
   }
   
+.Contact-Me{
+    position: relative;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;    
+}
 
+.Contact-Me h1{
+    font-size: 254%;
+    position: absolute;
+    top: -20px;
+    left: -220px;
+    border-right: 5px solid black;
+}
+
+.Contact-Me li{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    }
